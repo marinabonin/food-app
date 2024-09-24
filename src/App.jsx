@@ -4,7 +4,10 @@ import Button from "./components/Button/Button";
 function App() {
   return (
     <>
-      <Button>Check out</Button>
+      <Button size="small" color="white">
+        Buy Now
+      </Button>
+      <Button>Check Out</Button>
     </>
   );
 }
