@@ -1,11 +1,10 @@
 import "./App.css";
+import Button from "./components/Button/Button";
 
 function App() {
   return (
     <>
-      <div>
-        <p>Hello</p>
-      </div>
+      <Button>Check out</Button>
     </>
   );
 }

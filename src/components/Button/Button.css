@@ -1,0 +1,13 @@
+.btn {
+  width: 315px;
+  height: 56px;
+  padding: 17px 59px;
+  border: none;
+  border-radius: 4px;
+  background: #ec2578;
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 131.023%;
+}
