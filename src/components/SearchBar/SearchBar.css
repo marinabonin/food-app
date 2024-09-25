@@ -3,23 +3,32 @@
   height: 54px;
   border-radius: 30px;
   background-color: #ededed;
-  padding: 15px;
+  padding: 0 15px;
 
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .search-glass-input {
   display: flex;
+  align-items: center;
+  gap: 15px;
+  flex: 1;
 }
 
 .search-input {
   border: none;
-  margin-left: 15px;
   color: #646464;
   background-color: #ededed;
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
   font-weight: 600;
-  line-height: 131%;
+  line-height: 40px;
+  width: 100%;
+  outline: none;
+}
+
+.search-filter {
+  cursor: pointer;
 }

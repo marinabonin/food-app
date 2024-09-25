@@ -24,7 +24,7 @@ export default function SearchBar() {
           type="text"
         ></input>
       </div>
-      <span>
+      <span className="search-filter">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="24"
