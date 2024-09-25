@@ -1,0 +1,25 @@
+.search-bar {
+  width: 100%;
+  height: 54px;
+  border-radius: 30px;
+  background-color: #ededed;
+  padding: 15px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.search-glass-input {
+  display: flex;
+}
+
+.search-input {
+  border: none;
+  margin-left: 15px;
+  color: #646464;
+  background-color: #ededed;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 131%;
+}
