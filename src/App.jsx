@@ -3,6 +3,9 @@ import Button from "./components/Button/Button";
 import Card from "./components/Card/Card";
 
 function App() {
+  function handleClick() {
+    alert("Checked out!");
+  }
   return (
     <div className="page">
       <div className="voucher">
@@ -18,7 +21,7 @@ January"
         />
       </div>
       <div className="actions">
-        <Button>Check Out</Button>
+        <Button onClick={handleClick}>Check Out</Button>
       </div>
     </div>
   );

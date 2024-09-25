@@ -6,5 +6,9 @@ export default function Button(props) {
     "btn--small": props.size === "small",
     "btn--white": props.color === "white",
   });
-  return <button className={className}>{props.children}</button>;
+  return (
+    <button className={className} onClick={props.onClick}>
+      {props.children}
+    </button>
+  );
 }
