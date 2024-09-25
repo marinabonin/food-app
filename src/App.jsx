@@ -4,18 +4,23 @@ import Card from "./components/Card/Card";
 
 function App() {
   return (
-    <>
-      <Card
-        title="Special Deal For
+    <div className="page">
+      <div className="voucher">
+        <h1 className="page-title">Voucher Promo</h1>
+        <Card
+          title="Special Deal For
 December"
-        category="icecream"
-      />
-      <Card
-        title="Special Deal For
+          category="icecream"
+        />
+        <Card
+          title="Special Deal For
 January"
-      />
-      <Button>Check Out</Button>
-    </>
+        />
+      </div>
+      <div className="actions">
+        <Button>Check Out</Button>
+      </div>
+    </div>
   );
 }
 
