@@ -9,11 +9,16 @@ export default function Card(props) {
     "card--icecream": props.category === "icecream",
     "card--donuts": props.category !== "icecream",
   });
+  function handleClick() {
+    props.category === "icecream"
+      ? alert("Icecream added to cart!")
+      : alert("Donuts added to cart!");
+  }
   return (
     <div className={className}>
       <div>
         <h2 className="card-title">{props.title}</h2>
-        <Button size="small" color="white">
+        <Button size="small" color="white" onClick={handleClick}>
           Buy Now
         </Button>
       </div>
