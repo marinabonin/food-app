@@ -3,6 +3,7 @@
   height: 150px;
   padding: 4px 7px 4px 15px;
   border-radius: 4px;
+  gap: 33px;
   background-color: #ec2578;
 
   display: flex;
@@ -18,6 +19,7 @@
 }
 
 .card-img {
+  width: 148px;
   height: 142px;
 }
 
