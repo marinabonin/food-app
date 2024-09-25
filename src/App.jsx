@@ -1,12 +1,19 @@
 import "./App.css";
 import Button from "./components/Button/Button";
+import Card from "./components/Card/Card";
 
 function App() {
   return (
     <>
-      <Button size="small" color="white">
-        Buy Now
-      </Button>
+      <Card
+        title="Special Deal For
+December"
+        category="icecream"
+      />
+      <Card
+        title="Special Deal For
+January"
+      />
       <Button>Check Out</Button>
     </>
   );
