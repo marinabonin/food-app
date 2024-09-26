@@ -4,8 +4,10 @@ import homeIcon from "./home-icon.png";
 export default function MenuBar() {
   return (
     <div className="menu-bar">
-      <img className="home-icon" src={homeIcon} alt="Home icon" />
-      <span className="profile-icon">
+      <a href="#">
+        <img className="home-icon" src={homeIcon} alt="Home icon" />
+      </a>
+      <a href="#" className="icon">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="28"
@@ -18,8 +20,8 @@ export default function MenuBar() {
             fill="white"
           />
         </svg>
-      </span>
-      <span className="cart-icon">
+      </a>
+      <a href="#" className="icon">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="26"
@@ -32,8 +34,8 @@ export default function MenuBar() {
             fill="white"
           />
         </svg>
-      </span>
-      <span className="chat-icon">
+      </a>
+      <a href="#" className="icon">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="28"
@@ -46,7 +48,7 @@ export default function MenuBar() {
             fill="white"
           />
         </svg>
-      </span>
+      </a>
     </div>
   );
 }
