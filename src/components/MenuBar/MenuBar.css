@@ -1,12 +1,12 @@
 .menu-bar {
   border-radius: 4px;
   background-color: #ec2578;
-  width: 335px;
+  width: 100%;
   height: 60px;
   padding: 10px 20px;
 
   display: flex;
-  gap: 45px;
+  justify-content: space-between;
 }
 
 .home-icon {
