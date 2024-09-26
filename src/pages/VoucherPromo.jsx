@@ -1,8 +1,8 @@
 import Button from "../components/Button/Button";
-import Card from "../components/Card/Card";
-import "./Promotion.css";
+import Promotion from "../components/Promotion/Promotion";
+import "./VoucherPromo.css";
 
-export default function Promotion() {
+export default function VoucherPromo() {
   function handleClick() {
     alert("Checked out!");
   }
@@ -10,12 +10,12 @@ export default function Promotion() {
     <div className="page">
       <div className="voucher">
         <h1 className="page-title">Voucher Promo</h1>
-        <Card
+        <Promotion
           title="Special Deal For
 December"
           category="icecream"
         />
-        <Card
+        <Promotion
           title="Special Deal For
 January"
         />
