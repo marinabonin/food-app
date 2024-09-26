@@ -1,10 +1,11 @@
+/* eslint-disable react/prop-types */
 import classNames from "classnames";
-import cardIceCream from "./card-icecream.png";
-import cardDonuts from "./card-donuts.png";
+import cardIceCream from "./promotion-icecream.png";
+import cardDonuts from "./promotion-donuts.png";
 import Button from "../Button/Button";
-import "./Card.css";
+import "./Promotion.css";
 
-export default function Card(props) {
+export default function Promotion(props) {
   const className = classNames("card", {
     "card--icecream": props.category === "icecream",
     "card--donuts": props.category !== "icecream",

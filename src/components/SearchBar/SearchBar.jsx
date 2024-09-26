@@ -22,7 +22,7 @@ export default function SearchBar() {
           className="search-input"
           placeholder="Search For Food"
           type="text"
-        ></input>
+        />
       </div>
       <span className="search-filter">
         <svg
