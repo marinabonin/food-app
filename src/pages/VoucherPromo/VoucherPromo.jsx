@@ -1,5 +1,5 @@
-import Button from "../components/Button/Button";
-import Promotion from "../components/Promotion/Promotion";
+import Button from "../../components/Button/Button";
+import Promotion from "../../components/Promotion/Promotion";
 import "./VoucherPromo.css";
 
 export default function VoucherPromo() {

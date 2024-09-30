@@ -1,13 +1,8 @@
 import "./App.css";
-// import SearchBar from "./components/SearchBar/SearchBar";
-// import FoodCard from "./components/FoodCard/FoodCard";
-// import burgerImg from "./components/FoodCard/food-card-burger.png";
-import MenuBar from "./components/MenuBar/MenuBar";
+import Home from "./pages/Home/Home";
 
 function App() {
-  return <MenuBar />;
-  // <SearchBar />
-  // <FoodCard src={burgerImg} title="Zinger Burger" price="$2" />;
+  return <Home />;
 }
 
 export default App;

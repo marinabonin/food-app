@@ -1,13 +1,14 @@
-import "./MenuBar.css";
+import styles from "./MenuBar.module.css";
 import homeIcon from "./home-icon.png";
+console.log(styles);
 
 export default function MenuBar() {
   return (
-    <div className="menu-bar">
+    <div className={styles.menubar}>
       <a href="#">
-        <img className="home-icon" src={homeIcon} alt="Home icon" />
+        <img className={styles.homeicon} src={homeIcon} alt="Home icon" />
       </a>
-      <a href="#" className="icon">
+      <a href="#" className={styles.icon}>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="28"
@@ -21,7 +22,7 @@ export default function MenuBar() {
           />
         </svg>
       </a>
-      <a href="#" className="icon">
+      <a href="#" className={styles.icon}>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="26"
@@ -35,7 +36,7 @@ export default function MenuBar() {
           />
         </svg>
       </a>
-      <a href="#" className="icon">
+      <a href="#" className={styles.icon}>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="28"
