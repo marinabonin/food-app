@@ -1,4 +1,4 @@
-.menu-bar {
+.menubar {
   border-radius: 4px;
   background-color: #ec2578;
   width: 100%;
@@ -9,13 +9,14 @@
   justify-content: space-between;
 }
 
-.home-icon {
+.homeicon {
   width: 40px;
   height: 40px;
   padding: 6px;
   border-radius: 4px;
   background-color: #fff;
 }
+
 .icon {
   width: 40px;
   height: 40px;

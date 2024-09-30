@@ -1,0 +1,53 @@
+.container {
+  padding: 20px 20px 30px;
+  padding-bottom: 100px;
+}
+
+.page-title {
+  color: #000;
+  font-family: "Open Sans", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.promotion {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.food-cards-category {
+  font-family: "Open Sans", sans-serif;
+  color: #000;
+  margin-bottom: 20px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.food-cards-title {
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.food-cards-view {
+  font-size: 12px;
+  font-weight: 400;
+  text-decoration: none;
+  color: #646464;
+}
+
+.food-cards {
+  margin-bottom: 20px;
+
+  display: flex;
+  gap: 33px;
+}
+
+.menubar {
+  position: fixed;
+  left: 20px;
+  right: 20px;
+  bottom: 30px;
+}
