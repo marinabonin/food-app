@@ -1,8 +1,8 @@
 import "./App.css";
-import Input from "./components/Input/Input";
+import FormLogin from "./components/FormLogin/FormLogin";
 
 function App() {
-  return <Input placeholder="Email" />;
+  return <FormLogin />;
 }
 
 export default App;
