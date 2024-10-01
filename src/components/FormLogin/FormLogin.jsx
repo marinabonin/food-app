@@ -21,7 +21,7 @@ export default function FormLogin() {
       </Button>
       <p className="or-text">Or</p>
       <div className="login-methods">
-        <span>
+        <a href="#">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="28"
@@ -53,8 +53,8 @@ export default function FormLogin() {
               </clipPath>
             </defs>
           </svg>
-        </span>
-        <span>
+        </a>
+        <a href="#">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="29"
@@ -83,7 +83,7 @@ export default function FormLogin() {
               </clipPath>
             </defs>
           </svg>
-        </span>
+        </a>
       </div>
     </form>
   );
