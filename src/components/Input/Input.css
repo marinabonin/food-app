@@ -1,0 +1,20 @@
+.inputBox {
+  border-radius: 5px;
+  padding: 13px 89px 13px 15px;
+  border: 1px solid #ededed;
+
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.input {
+  border: none;
+  color: #000;
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  width: 100%;
+  line-height: 30px;
+  outline: none;
+}

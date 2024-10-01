@@ -1,8 +1,8 @@
 import "./App.css";
-import Home from "./pages/Home/Home";
+import Input from "./components/Input/Input";
 
 function App() {
-  return <Home />;
+  return <Input placeholder="Email" />;
 }
 
 export default App;
