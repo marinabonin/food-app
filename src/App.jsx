@@ -1,5 +1,5 @@
 import "./App.css";
-import FormLogin from "./components/FormLogin/FormLogin";
+import FormLogin from "./pages/FormLogin/FormLogin";
 
 function App() {
   return <FormLogin />;
