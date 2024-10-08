@@ -4,6 +4,7 @@ import "./Button.css";
 export default function Button(props) {
   const className = classNames("btn", {
     "btn--small": props.size === "small",
+    "btn--medium": props.size === "medium",
     "btn--white": props.color === "white",
   });
   return (
