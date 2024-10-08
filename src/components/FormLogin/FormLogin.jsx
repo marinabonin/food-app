@@ -1,17 +1,36 @@
 import "./FormLogin.css";
 import Input from "../Input/Input";
 import Button from "../Button/Button";
+import { useState } from "react";
 
 export default function FormLogin() {
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
   function handleClick() {
-    alert("Logged in!");
+    alert([email, password]);
+  }
+  function handleEmailChange(event) {
+    setEmail(event.target.value);
+  }
+  function handlePasswordChange(event) {
+    setPassword(event.target.value);
   }
   return (
     <form className="container">
       <h2 className="form-title">Login</h2>
       <div className="inputs">
-        <Input type="email" placeholder="Email" />
-        <Input type="password" placeholder="Password" />
+        <Input
+          type="email"
+          placeholder="Email"
+          value={email}
+          onChange={handleEmailChange}
+        />
+        <Input
+          type="password"
+          placeholder="Password"
+          value={password}
+          onChange={handlePasswordChange}
+        />
       </div>
       <a className="forget-password" href="#">
         Forget Password?

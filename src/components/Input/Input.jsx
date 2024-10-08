@@ -1,6 +1,6 @@
 import "./Input.css";
 
-export default function Input({ type = "text", placeholder }) {
+export default function Input({ type = "text", placeholder, onChange, value }) {
   return (
     <div className="inputBox">
       {type === "email" && (
@@ -35,7 +35,13 @@ export default function Input({ type = "text", placeholder }) {
           </svg>
         </span>
       )}
-      <input className="input" type={type} placeholder={placeholder} />
+      <input
+        onChange={onChange}
+        value={value}
+        className="input"
+        type={type}
+        placeholder={placeholder}
+      />
     </div>
   );
 }
