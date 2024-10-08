@@ -16,7 +16,7 @@ export default function FormLogin() {
       <a className="forget-password" href="#">
         Forget Password?
       </a>
-      <Button pinksize="formcard" onClick={handleClick}>
+      <Button size="medium" onClick={handleClick}>
         Login
       </Button>
       <p className="or-text">Or</p>
