@@ -1,7 +1,8 @@
 import "./App.css";
+import FormSignup from "./components/FormSignup/FormSignup";
 
 function App() {
-  return;
+  return <FormSignup />;
 }
 
 export default App;
