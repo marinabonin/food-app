@@ -7,7 +7,8 @@ export default function FormSignup() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  function handleClick() {
+  function handleSubmit(event) {
+    event.preventDefault();
     alert([name, email, password]);
   }
   function handleNameChange(event) {
@@ -20,7 +21,7 @@ export default function FormSignup() {
     setPassword(event.target.value);
   }
   return (
-    <form className="container">
+    <form className="container" onSubmit={handleSubmit}>
       <h2 className="form-title">Signup</h2>
       <div className="inputs">
         <Input
@@ -42,7 +43,7 @@ export default function FormSignup() {
           onChange={handlePasswordChange}
         />
         <div className="create-account-btn">
-          <Button size="medium" onClick={handleClick}>
+          <Button size="medium" type="submit">
             Create Account
           </Button>
         </div>
