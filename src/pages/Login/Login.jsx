@@ -1,4 +1,4 @@
-import "./App.css";
+import "./Login.css";
 import FormLogin from "./components/FormLogin/FormLogin";
 
 export default function Login() {
@@ -9,7 +9,7 @@ export default function Login() {
       <div className="form-login">
         <FormLogin />
       </div>
-      <p className="account-text">Don't have an account?</p>
+      <p className="account-text">Do not have an account?</p>
       <a className="register-link" href="#">
         REGISTER
       </a>
