@@ -1,5 +1,5 @@
 import "./Signup.css";
-import FormSignup from "./components/FormSignup/FormSignup";
+import FormSignup from "../../components/FormSignup/FormSignup";
 
 export default function Signup() {
   return (
