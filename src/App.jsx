@@ -1,7 +1,8 @@
 import "./App.css";
+import ExploreMenu from "./pages/ExploreMenu/ExploreMenu";
 
 function App() {
-  return;
+  return <ExploreMenu />;
 }
 
 export default App;
