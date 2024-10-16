@@ -2,12 +2,12 @@ import "./ExploreMenu.css";
 import FoodCard from "../../components/FoodCard/FoodCard";
 import MenuBar from "../../components/MenuBar/MenuBar";
 import SearchBar from "../../components/SearchBar/SearchBar";
-import zburgerImg from "../../components/FoodCard/food-card-zburger.png";
-import rollImg from "../../components/FoodCard/food-card-roll.png";
-import burgerImg from "../../components/FoodCard/food-card-burger.png";
-import sandwichImg from "../../components/FoodCard/food-card-sandwich.png";
-import pizzaImg from "../../components/FoodCard/food-card-pizza-roll.png";
-import misoImg from "../../components/FoodCard/food-card-miso-soup.png";
+// import zburgerImg from "../../components/FoodCard/food-card-zburger.png";
+// import rollImg from "../../components/FoodCard/food-card-roll.png";
+// import burgerImg from "../../components/FoodCard/food-card-burger.png";
+// import sandwichImg from "../../components/FoodCard/food-card-sandwich.png";
+// import pizzaImg from "../../components/FoodCard/food-card-pizza-roll.png";
+// import misoImg from "../../components/FoodCard/food-card-miso-soup.png";
 import menuItems from "./menu-items.json";
 
 export default function ExploreMenu() {
@@ -25,7 +25,7 @@ export default function ExploreMenu() {
               key={item.id}
               src={item.src}
               title={item.title}
-              price={item.price}
+              price={`$${item.price}`}
             />
           );
         })}
