@@ -1,0 +1,26 @@
+[
+  {
+    "src": "",
+    "title": "Burger1",
+    "price": 2,
+    "id": 1
+  },
+  {
+    "src": "",
+    "title": "Burger2",
+    "price": 3.4,
+    "id": 2
+  },
+  {
+    "src": "",
+    "title": "Burger3",
+    "price": 2.6,
+    "id": 3
+  },
+  {
+    "src": "",
+    "title": "Burger4",
+    "price": 10,
+    "id": 4
+  }
+]
