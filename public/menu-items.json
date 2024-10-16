@@ -1,0 +1,50 @@
+[
+  {
+    "src": "/backend/food-card-zburger.png",
+    "title": "Z Burger",
+    "price": 2,
+    "id": 1
+  },
+  {
+    "src": "/backend/food-card-roll.png",
+    "title": "Roll Paratha",
+    "price": 3,
+    "id": 2
+  },
+  {
+    "src": "/backend/food-card-burger.png",
+    "title": "Burger",
+    "price": 2,
+    "id": 3
+  },
+  {
+    "src": "/backend/food-card-sandwich.png",
+    "title": "Sandwich",
+    "price": 3,
+    "id": 4
+  },
+  {
+    "src": "/backend/food-card-pizza-roll.png",
+    "title": "Pizza Roll",
+    "price": 2,
+    "id": 4
+  },
+  {
+    "src": "/backend/food-card-miso-soup.png",
+    "title": "Miso Soup",
+    "price": 2,
+    "id": 4
+  },
+  {
+    "src": "/backend/food-card-zburger.png",
+    "title": "Z Burger",
+    "price": 2,
+    "id": 1
+  },
+  {
+    "src": "/backend/food-card-roll.png",
+    "title": "Roll Paratha",
+    "price": 3,
+    "id": 2
+  }
+]

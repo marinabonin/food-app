@@ -1,6 +1,5 @@
 import styles from "./MenuBar.module.css";
 import homeIcon from "./home-icon.png";
-console.log(styles);
 
 export default function MenuBar() {
   return (
